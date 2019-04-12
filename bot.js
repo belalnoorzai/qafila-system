@@ -964,8 +964,8 @@ var Za7f = [
   "**اتصل على امك و قول لها انك تحبها :heart:**.",
   "**لا يوجد سؤال لك سامحتك :slight_smile:**.",
   "**قل لواحد ماتعرفه عطني كف**.",
-  "**منشن الجميع وقل انا اكرهكم**.",
-  "**اتصل لاخوك و قول له انك سويت حادث و الخ....**.",
+  "**تقول لهارون احبك**.",
+  "**تروح خاص لواحد و تقولة تخليني **.",
   "**روح المطبخ و اكسر صحن او كوب**.",
   "**اعطي اي احد جنبك كف اذا مافيه احد جنبك اعطي نفسك و نبي نسمع صوت الكف**.",
   "**قول لاي بنت موجود في الروم كلمة حلوه**.",
@@ -1000,7 +1000,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('sliver BOT' ,
+.addField('By Haron' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)

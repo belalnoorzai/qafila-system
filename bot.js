@@ -33,16 +33,6 @@ const sql = require("sqlite");
 
 
 
- 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` 💛 القافلة في الصدارة `,"http://twitch.tv/S-F")
-  console.log('')
-  console.log('')
-
-
-
-
 
 
 
